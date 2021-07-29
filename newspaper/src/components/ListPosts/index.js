@@ -24,7 +24,6 @@ const ListPosts = () => {
                 size="large"
                 pagination={{
                 onChange: page => {
-                    console.log(page);
                 },
                 pageSize: 3,
                 }}

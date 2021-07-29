@@ -25,7 +25,6 @@ const Relation = (props) => {
         const post = blog.find(post => post.plug == plug);
         const relate = blog.filter(i => i.blogCategory == post.blogCategory);
         const show = objectRandom(relate,{count: 3})
-        console.log(show);
         setRelate(show);
         setPost(post);
         setSlug(plug)

@@ -58,7 +58,7 @@ const HeaderT = () => {
     <nav class="nav d-flex justify-content-between">
       <a class="p-2 link-secondary" ><NavLink to="/">Home</NavLink></a>
       <a class="p-2 link-secondary" ><NavLink to="/the-thao">Thể Thao</NavLink></a>
-      <a class="p-2 link-secondary" ><NavLink to="/thoi-su">Thể Thao</NavLink></a>
+      <a class="p-2 link-secondary" ><NavLink to="/thoi-su">Thời Sự</NavLink></a>
       <a class="p-2 link-secondary" href="#">Design</a>
       <a class="p-2 link-secondary" href="#">Culture</a>
       <a class="p-2 link-secondary" href="#">Business</a>
